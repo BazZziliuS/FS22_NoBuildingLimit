@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="65">
+    <title><en>No Building Limit</en></title>
+    <description><en><![CDATA[Removes the building limit in FS22.]]></en></description>
+    <author>BazZziliuS</author>
+    <version>1.0.0.0</version>  
+    <iconFilename>icon.dds</iconFilename>
+    <extraSourceFiles>
+        <sourceFile filename="NoBuildingLimit.lua"/>
+    </extraSourceFiles>
+    <multiplayer supported="true"/>
+</modDesc>
