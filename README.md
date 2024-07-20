@@ -2,6 +2,8 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/BazZziliuS/FS22_NoBuildingLimit)
 ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/BazZziliuS/FS22_NoBuildingLimit/latest/total)
 ![GitHub contributors](https://img.shields.io/github/contributors/BazZziliuS/FS22_NoBuildingLimit)
+![GitHub License](https://img.shields.io/github/license/BazZziliuS/FS22_NoBuildingLimit)
+![GitHub watchers](https://img.shields.io/github/watchers/BazZziliuS/FS22_NoBuildingLimit)
 
 
 # No Building Limit Mod
