@@ -1,3 +1,8 @@
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/BazZziliuS/FS22_NoBuildingLimit)
+![GitHub Release Date](https://img.shields.io/github/release-date/BazZziliuS/FS22_NoBuildingLimit)
+
+
+
 # No Building Limit Mod
 
 ## Описание (Description)
