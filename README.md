@@ -12,11 +12,11 @@
 
 ### Русский
 
-Этот мод убирает ограничение на количество производственных точек в игре Farming Simulator 22. Теперь вы можете строить неограниченное количество производственных объектов на вашей ферме.
+Этот мод убирает ограничение на количество производственных точек в игре Farming Simulator 22. Теперь вы можете строить неограниченное количество производственных объектов на вашей ферме. Также мод поддерживает животных, позволяя вам содержать неограниченное количество животных на вашей ферме.
 
 ### English
 
-This mod removes the limit on the number of production points in Farming Simulator 22. Now you can build an unlimited number of production facilities on your farm.
+This mod removes the limit on the number of production points in Farming Simulator 22. Now you can build an unlimited number of production facilities on your farm. The mod also supports animals, allowing you to keep an unlimited number of animals on your farm.
 
 ## Установка (Installation)
 
@@ -36,11 +36,11 @@ This mod removes the limit on the number of production points in Farming Simulat
 
 ### Русский
 
-После активации мода в меню модификаций, лимит на количество производственных точек будет снят автоматически. Вы можете строить столько производственных объектов, сколько захотите.
+После активации мода в меню модификаций, лимит на количество производственных точек и животных будет снят автоматически. Вы можете строить столько производственных объектов и содержать столько животных, сколько захотите.
 
 ### English
 
-After activating the mod in the modifications menu, the limit on the number of production points will be removed automatically. You can build as many production facilities as you want.
+After activating the mod in the modifications menu, the limit on the number of production points and animals will be removed automatically. You can build as many production facilities and keep as many animals as you want.
 
 ## Автор (Author)
 
