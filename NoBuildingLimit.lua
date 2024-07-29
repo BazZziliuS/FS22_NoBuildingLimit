@@ -1,24 +1,34 @@
 NoBuildingLimit = {}
 
-function NoBuildingLimit:overwritePalletSpawner()
-    if PalletSpawner ~= nil then
-        function PalletSpawner:spawnPallet(farmId, fillTypeId, callback, callbackTarget)
-            local pallet = self.fillTypeIdToPallet[fillTypeId]
-            if pallet ~= nil then
-                table.insert(self.spawnQueue, {pallet=pallet, fillType=fillTypeId, farmId=farmId, callback=callback, callbackTarget=callbackTarget})
-                g_currentMission:addUpdateable(self)
-            else
-                Logging.devError("PalletSpawner: no pallet for fillTypeId", fillTypeId)
-                callback(callbackTarget, nil, PalletSpawner.NO_PALLET_FOR_FILLTYPE, fillTypeId)
-            end
-        end
-    end
-end
-
 function NoBuildingLimit:loadMap(name)
     ProductionChainManager.NUM_MAX_PRODUCTION_POINTS = math.huge
     HusbandrySystem.GAME_LIMIT = math.huge
-    NoBuildingLimit:overwritePalletSpawner()
+    SlotSystem.NUM_OBJECT_LIMITS = {
+        [SlotSystem.LIMITED_OBJECT_BALE] = {
+            [PlatformId.WIN] = math.huge,
+            [PlatformId.MAC] = math.huge,
+            [PlatformId.PS5] = math.huge,
+            [PlatformId.PS4] = math.huge,
+            [PlatformId.XBOX_SERIES] = math.huge,
+            [PlatformId.XBOX_ONE] = math.huge,
+            [PlatformId.IOS] = math.huge,
+            [PlatformId.ANDROID] = math.huge,
+            [PlatformId.SWITCH] = math.huge,
+            [PlatformId.GGP] = math.huge
+        },
+        [SlotSystem.LIMITED_OBJECT_PALLET] = {
+            [PlatformId.WIN] = math.huge,
+            [PlatformId.MAC] = math.huge,
+            [PlatformId.PS5] = math.huge,
+            [PlatformId.PS4] = math.huge,
+            [PlatformId.XBOX_SERIES] = math.huge,
+            [PlatformId.XBOX_ONE] = math.huge,
+            [PlatformId.IOS] = math.huge,
+            [PlatformId.ANDROID] = math.huge,
+            [PlatformId.SWITCH] = math.huge,
+            [PlatformId.GGP] = math.huge
+        }
+    }	
 end
 
 function NoBuildingLimit:deleteMap()
