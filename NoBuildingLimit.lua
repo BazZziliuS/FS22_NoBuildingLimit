@@ -30,6 +30,7 @@ SlotSystem.NUM_OBJECT_LIMITS = {
 function NoBuildingLimit:loadMap(name)
     ProductionChainManager.NUM_MAX_PRODUCTION_POINTS = math.huge
     HusbandrySystem.GAME_LIMIT = math.huge
+    FillTypeManager.SEND_NUM_BITS = 16.0 -- max 65.536
 end
 
 function NoBuildingLimit:deleteMap()
